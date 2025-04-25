@@ -2,7 +2,7 @@
   "name": "svelte-unit-mocker",
   "version": "0.1.0",
   "scripts": {
-    "ci": "npm run build && npm run check:format && npm run check-exports && npm run test:unit",
+    "ci": "npm run build && npm run check:format && npm run check:exports && npm run test:unit",
     "build": "tsc",
     "test:unit": "vitest run",
     "check:type": "tsc --noEmit --project tsconfig.app.json",
