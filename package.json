@@ -1,6 +1,6 @@
 {
   "name": "svelte-unit-mocker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "ci": "npm run build && npm run check:format && npm run check:exports && npm run test:unit",
     "prepublishOnly": "npm run ci",
